@@ -1,0 +1,11 @@
+importFrom(survival,Surv)
+importFrom(rms,ols)
+importFrom(rms,nomogram)
+importFrom(Hmisc,rcorr.cens)
+importFrom(survey,svykm)
+importFrom(survey,svycoxph)
+importFrom(survey,svydesign)
+importFrom("graphics", "abline", "arrows")
+importFrom("stats", "as.formula", "formula", "median", "predict", "quantile")
+export(svycox.nomogram,svycox.validate,svycox.calibrate)
+

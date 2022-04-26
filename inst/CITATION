@@ -1,0 +1,19 @@
+citHeader("To cite SvyNom in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Building a Nomogram for Survey-Weighted {C}ox Models Using {R}",
+  author       = personList(as.person("Marinela Capanu"),
+                   as.person("Mithat G{\\\"o}nen")),
+  journal      = "Journal of Statistical Software, Code Snippets",
+  year         = "2015",
+  volume       = "64",
+  number       = "1",
+  pages        = "1--17",
+  url          = "http://www.jstatsoft.org/v64/c01/",
+
+  textVersion  =
+  paste("Marinela Capanu, Mithat Gonen (2015).",
+        "Building a Nomogram for Survey-Weighted Cox Models Using R.",
+        "Journal of Statistical Software, Code Snippets, 64(1), 1-17.",
+        "URL http://www.jstatsoft.org/v64/c01/.")
+)
