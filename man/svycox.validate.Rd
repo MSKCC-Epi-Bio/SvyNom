@@ -33,7 +33,7 @@ which can be used to summarize the validation with the measure of choice
 }
 \references{
 Marinela Capanu, Mithat Gonen (2015). Building a Nomogram for Survey-Weighted Cox Models Using R. 
-Journal of Statistical Software, Code Snippets, 64(1), 1-17. URL http://www.jstatsoft.org/v64/c01/.
+Journal of Statistical Software, Code Snippets, 64(1), 1-17. URL https://www.jstatsoft.org/v64/c01/.
 }
 \examples{bootit=200
 library(survey)
