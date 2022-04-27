@@ -2,8 +2,10 @@ Type: Package
 Package: SvyNom
 Title: Nomograms for Right-Censored Outcomes from Survey Designs
 Version: 1.2
-Author: Mithat Gonen, Marinela Capanu
-Maintainer: Mithat Gonen <gonenm@mskcc.org>
+Authors@R: c(
+    person("Mithat", "Gonen", , "gonenm@mskcc.org", role = c("aut", "cre")),
+    person("Marinela", "Capanu", role = "aut")
+  )
 Description: Builds, evaluates and validates a nomogram with survey data
     and right-censored outcomes.
 License: GPL-2
