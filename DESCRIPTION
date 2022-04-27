@@ -1,12 +1,19 @@
-Package: SvyNom
 Type: Package
+Package: SvyNom
 Title: Nomograms for Right-Censored Outcomes from Survey Designs
 Version: 1.2
 Author: Mithat Gonen, Marinela Capanu
 Maintainer: Mithat Gonen <gonenm@mskcc.org>
-Description: Builds, evaluates and validates a nomogram with survey data and right-censored outcomes.
-Imports: survival,rms,Hmisc,survey
+Description: Builds, evaluates and validates a nomogram with survey data
+    and right-censored outcomes.
 License: GPL-2
-LazyLoad: yes
-URL: https://github.com/MSKCC-Epi-Bio/SvyNom
+URL: https://github.com/MSKCC-Epi-Bio/SvyNom,
+    https://mskcc-epi-bio.github.io/SvyNom/
 BugReports: https://github.com/MSKCC-Epi-Bio/SvyNom/issues
+Imports: 
+    Hmisc,
+    rms,
+    survey,
+    survival
+Encoding: UTF-8
+LazyLoad: yes
